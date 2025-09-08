@@ -6,7 +6,7 @@ import re
 import time
 import json
 from dotenv import load_dotenv
-from all_AI_API_3 import all_AI_api
+from all_AI_API_0 import all_AI_api
 import chardet
 
 
@@ -181,4 +181,5 @@ for model_name in models:
 '''
 model_name = 'claude-3-7-sonnet-20250219-svip'
 for repeats in range(1, 4):
+
     paper_classification() # V3_pro'''
